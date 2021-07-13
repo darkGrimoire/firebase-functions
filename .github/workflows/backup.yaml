@@ -3,6 +3,7 @@ name: Backup Firestore
 on:
   schedule:
     - cron:  '* * * * *'
+  workflow_dispatch:
 
 env:
   PROJECT_ID: gep-teknis
